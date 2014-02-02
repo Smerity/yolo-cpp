@@ -24,12 +24,15 @@ int main() {
 
   std::cout << v << std::endl;
 
+  // Doesn't change the value
   squareA(v);
   std::cout << v << std::endl;
 
+  // Changes the value
   squareB(&v);
   std::cout << v << std::endl;
 
+  // Changes the value
   v = 3;
   squareC(v);
   std::cout << v << std::endl;

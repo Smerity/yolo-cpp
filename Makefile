@@ -44,7 +44,6 @@ $(EXEC): % : %.o $(SDLOBJS)
 # 'make clean' - deletes all .o files, exec, and dependency files
 clean:
 	-$(RM) *.o $(EXEC)
-	$(RM) -r $(DEPSDIR)
 
 # Define rules that do not actually generate the corresponding file
 .PHONY: clean all
