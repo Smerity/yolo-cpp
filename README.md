@@ -1,4 +1,4 @@
-yolo-cpp
+YOLO-C++
 ========
 
-YOLO C++: A crash course for those needing to learn street fighting C++
+*A friendly crash course for those needing to learn street fighting C++*
